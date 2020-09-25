@@ -1,2 +1,3 @@
 # bazam.org
-Shazam for books, it's Bazam! Find any book by context, keyword, or id
+
+Bazam is Shazam for books. Identify any book in an instant by context, keyword, or id
