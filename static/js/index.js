@@ -29,7 +29,7 @@ var requests, OpenLibrary;
 
     OpenLibrary = {
 	search: function(query, callback) {
-	    var url = "https://dev.openlibrary.org/search/inside.json?q=" + query
+	    var url = "https://openlibrary.org/search/inside.json?q=" + query
 	    requests.get(url, function(response) { callback(response.hits.hits) } );
 	},
     };
